@@ -9,23 +9,62 @@
   background-image: url(../images/banner/banner3.png);
   background-position: center;
 }
-.text-primary{
+.text-primary {
   color: #ffff;
 }
-.btn-primary{
+.btn-primary {
   background-color: #ffff;
   padding: 15px 20px;
   border-radius: 10px;
   margin-top: 30px;
 }
-.header-div{
+.header-div {
   width: 500px;
   text-align: right;
- position: relative;
- margin-left: 800px;
- padding-top: 300px;
+  position: relative;
+  margin-left: 800px;
+  padding-top: 300px;
 }
-.header-title{
-  margin-bottom:20px ;
+.header-title {
+  margin-bottom: 20px;
 }
 /* main section ownself */
+.ownself {
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin-top: 100px;
+}
+.img-style {
+  /* width: 200px;
+  height: 100px; */
+}
+.person-details {
+  max-width: 300px;
+}
+.description {
+  margin-bottom: 15px;
+}
+/* myplans */
+.text-align {
+  text-align: center;
+}
+.skills {
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  margin: 40px auto;
+  text-align: center;
+}
+.section-skills{
+  margin-top: 80px;
+}
+.same{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* another background section */
